@@ -20,10 +20,6 @@ public class Degree3 {
         System.out.print("Enter x (double) : ");
         x = keyboard.nextDouble();
 
-        double s1 = (a + b) / 2;
-        double s2 = x * x * x;
-        double s3 =  (a + b ) * ( a + b );
-        double s4 = (x * x);
         polynomialValue = (( (a + b) / 2 ) * ( x * x * x )) + ((( a + b ) * ( a + b )) * (x * x)) + a + b + c ;
         System.out.println("The value of polynomial is $" + polynomialValue);
     }
